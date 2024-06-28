@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I love you - Rian</title>
+    <link rel="stylesheet" href="./style.css">
+    <audio id="raudio">
+        <source src="Doja_Cat.mp3">
+    </audio>
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="lid one"></div>
+            <div class="lid two"></div>
+            <div class="envelope"></div>
+            <div class="letter">
+               <p id="letterText"></p>
+            </div>
+        </div>
+        <div>
+            <button class="button" id="openBtn">OPEN</button>
+            <button class="button" id="resetBtn">CLOSE</button>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+    <script>
+        var audio = document.getElementById("raudio");
+        audio.volume = 0.35;
+    </script>
+</body>
+</html>
